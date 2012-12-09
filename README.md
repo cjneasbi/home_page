@@ -1,4 +1,4 @@
 home_page
 =========
 
-My personal home page.
+Chris Neasbitt's personal home page.
