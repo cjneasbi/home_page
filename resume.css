@@ -67,6 +67,14 @@ label.mright{
 	page-break-before: always;
 }
 
+#publications {
+	page-break-before: always;
+}
+
+#techskills {
+        page-break-before: always;
+}
+
 .sectionpart {
 	/*border: 1px solid #000000;*/
 	overflow: auto;
