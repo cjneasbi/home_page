@@ -101,6 +101,8 @@ a:hover {
 
 #profile{
   padding-left: 15px;
+  width: 180px;
+  height: auto; 
 }
 
 #boincstats{
