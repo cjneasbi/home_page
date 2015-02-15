@@ -63,7 +63,11 @@ label.mright{
 	margin-bottom: 15px;
 }
 
-#profexpr {
+#techskills {
+	page-break-before: always;
+}
+
+/*#profexpr {
 	page-break-before: always;
 }
 
@@ -73,7 +77,7 @@ label.mright{
 
 #techskills {
         page-break-before: always;
-}
+}*/
 
 .sectionpart {
 	/*border: 1px solid #000000;*/
