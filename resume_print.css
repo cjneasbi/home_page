@@ -6,21 +6,19 @@
 }
 
 body {
-	font-family: 'Mate SC', 'Neuton', serif;
-	width: 900px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: 10px;
+	margin:0; 
+	padding:0; 
+	line-height: 1.4em; 
+	word-spacing:1px; 
+	letter-spacing:0.2px; 
+	font: 13px Arial, Helvetica,"Lucida Grande", serif; 
+	color: #000;
 }
 
-A:link, A:visited, A:active {color: #0069A1; text-decoration: none;}
-A:hover {color: #0069A1; text-decoration: underline;}
-
-
-/*a {
+a { 
 	color: black;
 	text-decoration: none;
-} uncomment when printing */
+}
 
 p, li {
 	margin-bottom: 5px;
@@ -63,20 +61,16 @@ label.mright{
 	margin-bottom: 15px;
 }
 
-/*#profexpr {
-	page-break-before: always;
+#publications, #presentations {
+	page-break-inside: avoid;
 }
 
-#publications {
-	page-break-before: always;
-}
-
+/*
 #techskills {
         page-break-before: always;
 }*/
 
 .sectionpart {
-	/*border: 1px solid #000000;*/
 	overflow: auto;
 	width: 100%;
 	height: auto;
@@ -87,13 +81,24 @@ label.mright{
 }
 
 .partinfo{
-	width: 72%;
-	float: right;
+	width: 360pt;
+	float: none;
+	display: inline-block;
 }
 
-.partlabel, .refs {
-	float: left;
+.refs {
+	vertical-align: top;
+	float: none;
+	display: inline-block;
 	padding-left: 10px;
+}
+
+.partlabel {
+	vertical-align: top;
+	float: none;
+	display: inline-block;
+	padding-left: 10px;
+	width: 130pt;
 }
 
 .sectionheader {
@@ -102,8 +107,8 @@ label.mright{
 }
 
 .cite{
-    padding-left: 30px;
-    text-indent: -20px;
+	padding-left: 30px;
+	text-indent: -20px;
 }
 
 
