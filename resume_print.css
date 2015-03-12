@@ -61,7 +61,7 @@ label.mright{
 	margin-bottom: 15px;
 }
 
-#publications, #presentations {
+#publications, #presentations, #techskills {
 	page-break-inside: avoid;
 }
 
